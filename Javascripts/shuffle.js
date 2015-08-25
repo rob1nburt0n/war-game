@@ -8,7 +8,7 @@ define(function(require) {
         url: "http://deckofcardsapi.com/api/deck/" + deck_id + "/draw/?count=104", 
         method: "GET"
        }).done(function(data) {
-        console.log(data);
+        // console.log(data);
         deal.hands(data);
       });
      }  

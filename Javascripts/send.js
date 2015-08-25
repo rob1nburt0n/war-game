@@ -7,6 +7,6 @@ define(function(require) {
      ref.child("game").child("player1").set(player1);
      ref.child("game").child("player2").set(player2);
     }
-  }
+  };
 
 });
